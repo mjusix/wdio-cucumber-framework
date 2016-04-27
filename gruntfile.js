@@ -61,7 +61,7 @@ module.exports = function (grunt) {
     })
 
     require('load-grunt-tasks')(grunt)
-    grunt.registerTask('default', ['eslint', 'build', 'env:test', 'mocha_istanbul'])
+    grunt.registerTask('default', ['eslint', 'build', 'env:test'])
     grunt.registerTask('build', 'Build wdio-mocha-framework', function () {
         grunt.task.run([
             'clean',
