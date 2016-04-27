@@ -1,6 +1,6 @@
 {
   "name": "wdio-cucumber-framework",
-  "version": "0.0.6",
+  "version": "0.0.7-my-temp-fix",
   "description": "A WebdriverIO plugin. Adapter for Cucumber testing framework.",
   "main": "build/adapter.js",
   "scripts": {
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/webdriverio/wdio-cucumber-framework#readme",
   "dependencies": {
     "cucumber": "0.9.4",
-    "wdio-sync": "0.4.8",
+    "wdio-sync": "git+https://github.com/mjusix/wdio-sync.git",
     "babel-runtime": "^5.8.25"
   },
   "devDependencies": {
